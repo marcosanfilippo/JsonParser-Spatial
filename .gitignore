@@ -1,0 +1,8 @@
+/*
+/*/
+*.orig
+!/src/
+!pom.xml
+!.gitignore
+!*.sql
+!*.json
