@@ -109,7 +109,6 @@ public class JsonParserSPATIAL {
 	    			ps1.clearParameters();
 	    			ps1.setString(1, element.getLine());
 	    			ps1.setString(2, element.getDesc());
-	    			ps1.addBatch();
 	    			ps1.execute();
 	    		}
 	    		
